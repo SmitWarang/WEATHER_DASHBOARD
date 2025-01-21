@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #6db3f2, #1e90ff);
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* App Container */
+.app {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  padding: 30px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Search Bar */
+.search-bar {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  width: 70%;
+  max-width: 300px;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background: #4caf50;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease;
+}
+
+.search-bar button:hover {
+  background: #45a049;
+}
+
+/* Weather Info */
+.weather-info {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.weather-info h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.weather-info p {
+  margin: 5px 0;
+  font-size: 1.2rem;
+}
+
+/* Error Alert */
+.error-alert {
+  background: rgba(255, 0, 0, 0.8);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
