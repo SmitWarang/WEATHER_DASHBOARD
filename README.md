@@ -1,4 +1,4 @@
-#Weather Dashboard
+##Weather Dashboard
 
 "Company": CODTECH IT SOLUTIONS
 
@@ -64,6 +64,6 @@ This project is designed to be lightweight, fast, and efficient, leveraging Vite
  - Dark Mode: Implement a theme toggle for better UX.
  - Auto Location Detection: Fetch user’s location-based weather.  
 
-#OUTPUT
+##OUTPUT
 
 ![Image](https://github.com/user-attachments/assets/b4f20d5f-54f4-4007-bb18-5af4bacc8a73)
